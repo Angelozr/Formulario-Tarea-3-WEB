@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="shortcut icon" type="image/x-icon" url="https://drive.google.com/file/d/1P9pv8VBZ6CSnakkKgvXdTMMTPIdagPjI/view?usp=sharing">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="validacion.js"></script>
+  </head>
+  <body>
+    <div id="formulario">
+        <center><h2>Formulario de Registro</h2></center>
+      <form>
+        <label for="cedula">Cédula:</label>
+        <input type="text" id="cedula" name="cedula" required>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label>Estado civil:</label>
+        <input type="radio" id="soltero" name="estado_civil" value="soltero" required>
+        <label class="radio" for="soltero">Soltero</label>
+
+        <input type="radio" id="casado" name="estado_civil" value="casado" required>
+        <label class="radio" for="casado">Casado</label>
+
+        <input type="radio" id="divorciado" name="estado_civil" value="divorciado" required>
+        <label class="radio" for="divorciado">Divorciado</label>
+
+        <input type="radio" id="Viudo" name="estado_civil" value="Viudo" required>
+        <label class="radio" for="Viudo">Viudo</label>
+
+        <input type="radio" id="Union Libre" name="estado_civil" value="Union Libre" required>
+        <label class="radio" for="Union Libre">Union Libre</label>
+
+        <label>Sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+        <label class="radio" for="masculino">Masculino</label>
+
+        <input type="radio" id="femenino" name="sexo" value="femenino" required>
+        <label class="radio" for="femenino">Femenino</label>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <center><button type="submit">Enviar</button></center>
+      </form>
+    </div>
+  </body>
+</html>
